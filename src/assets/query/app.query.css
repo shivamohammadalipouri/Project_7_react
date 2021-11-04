@@ -1,0 +1,23 @@
+@media screen and (max-width: 900px) {
+    .header {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-baner,
+    .header-form {
+        width: 100%;
+    }
+
+    .div-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .footer {
+        display: none;
+    }
+}

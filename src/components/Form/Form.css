@@ -1,0 +1,58 @@
+.header-form {
+
+    width: 30%;
+    height: 220px;
+    background-color: rgb(240, 240, 240);
+
+}
+
+
+
+.header-form form {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header-form form input {
+
+    margin: 5px 0;
+    background-color: white;
+    outline: none;
+    border: 1px solid lightgray;
+    direction: rtl;
+    height: 35px;
+    width: 90%;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.header-form form input::placeholder {
+
+    font-family: "iransans";
+    font-size: 12px;
+}
+
+.header-form form button {
+    width: 90%;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(68, 68, 255);
+    color: white;
+    font-family: "iransans";
+    font-size: 11px;
+    margin: 5px;
+}
+
+.header-form form a {
+    
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 30px;
+}

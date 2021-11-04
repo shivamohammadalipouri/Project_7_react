@@ -1,0 +1,32 @@
+.footer {
+
+    width: 100%;
+    height: auto;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer ul {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 60%;
+    list-style-type: none;
+
+}
+
+.footer ul li {
+
+    font-size: 12px;
+
+}
+
+.footer ul a {
+    
+    color: rgb(46, 46, 247);
+}
